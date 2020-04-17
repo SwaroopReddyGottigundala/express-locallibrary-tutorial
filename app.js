@@ -12,6 +12,7 @@ const compression = require('compression');
 const helmet = require('helmet');
 
 const app = express();
+dotenv.config({ path: '.env' })
 
 
 // Set up mongoose connection
